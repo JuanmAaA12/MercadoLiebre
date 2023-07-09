@@ -1,0 +1,33 @@
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.mercadoliebre{
+    width: 450px;
+    height: 100px;
+}
+
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    border-right: 1px solid grey;
+}
+.Instagram{
+    width: 10px;
+    height: 10px;
+}
+.Facebook{
+    background-color: blue;
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+}
+
+.card-img-top{
+    width: 280px;
+    height: 340px;
+}

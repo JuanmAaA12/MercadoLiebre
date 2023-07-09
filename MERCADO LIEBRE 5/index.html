@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mercado Liebre</title>
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontwesome.com/55efb57474.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4a6f9f2932.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <p id="mensaje"></p>
+  <script src="js/script.js"></script>
+
+  <nav class="navbar navbar-expand-lg bg-warning">
+
+    <div class="container-fluid">
+
+      <img class="logo" src="img/favicon.png" alt="logo">
+
+      <a class="navbar-brand" href="#">Mercado Liebre</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Indumentaria</a></li>
+              <li><a class="dropdown-item" href="#">Tecnología</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Calzado</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Ingresar
+        </button>
+
+      </div>
+    </div>
+  </nav>
+  </header>
+  <main>
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col container-fluid">
+          <!-- Aca empieza la primera card-->
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="https://bitwares.net/wp-content/uploads/2020/06/618FTkMHQ3L._AC_SL1500_-1.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy S10</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la primera card-->
+
+        </div>
+        <!-- Aca termina la primer columna-->
+        <div class="col container-fluid">
+          <!-- Aca empieza la segunda card-->
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/CDCDCD.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Colchon Cannon 1,50 x 1,90 x 33</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la segunda card-->
+        </div>
+        <!-- Aca termina la segunda columna-->
+        <div class="col container-fluid">
+          <!-- Aca empieza la tercera card-->
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/Loreal.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Productos L'Oréal</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la tercera card-->
+        </div>
+        <!-- Aca termina la tercera columna-->
+        <div class="col container-fluid">
+          <!-- Aca empieza la cuarta card-->
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/COCA.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pack x 6 Coca Cola</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la cuarta card-->
+        </div>
+        <!-- Aca empieza la quinta card-->
+
+        <div class="col container-fluid">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/TELE.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Samrtv Samsung 50"</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la quinta card-->
+        </div>
+        <!-- Aca termina la cuarta columna1-->
+
+
+        <br>
+        <!-- Aca empieza la sexta card-->
+        <div class="row"></div>
+        <br>
+        <div class="col container-fluid">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/LABICI.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bicicleta Mountain Bike Rodado 29"</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la sexta card-->
+        </div>
+
+
+        <!-- Aca empieza la sectima card-->
+        <div class="col container-fluid">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/Canon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cano-EOS Rebel Kit T100</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la sexta card-->
+        </div>
+
+        <!-- Aca empieza la octava card-->
+        <div class="col container-fluid">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/CAFETERA.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cafetera de Filtro</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la octava card-->
+        </div>
+
+        <!-- Aca empieza la octava card-->
+        <div class="col container-fluid">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/PERRO.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Royal Canin 10kg</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la octava card-->
+        </div>
+        <!-- Aca empieza la novena card-->
+        <div class="col container-fluid">
+          <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="img/Gille.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gillette</h5>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <!-- Aca termina la novena card-->
+        </div>
+
+        <!-- Aca termina la cuarta columna2-->
+
+      </div>
+    </section>
+    <section>
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Información de contacto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="mercadoliebre" src="img/mercado-liebre.png" alt="mercadoliebre">
+              <br><br>
+              <b><label class="Ingresa">Ingresa:</label> </b>
+              <br><br>
+              <label>Usuario</label>
+              <input type="text" placeholder="Escribí tu usuario">
+              <br>
+              <br>
+              <label>Contraseña</label>
+              <input type="password" placeholder="Contraseña">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-success">Ingresar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="row">
+          <div class="col">
+            <h5>Seguinos</h5>
+
+
+            <ul>
+              <li><i class="fa-brands fa-facebook" class="Facebook"></i>Facebook</li>
+              <li><i class="fa-brands fa-instagram"></i>Instagram</li>
+              <li><i class="fa-brands fa-youtube"></i>Youtube</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>Otros servicios</h5>
+            <ul>
+              <li>MercadoLiebre</li>
+              <li>MercadoLiebre Shops</li>
+              <li>MercadoLiebre Envios</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>Trabaja con nosotros</h5>
+            <nav class="navbar bg-light">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Enviar</button>
+                </form>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+
+
+
+      </footer>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
